@@ -1,11 +1,8 @@
-#include <iostream>
-#include "boost/date_time/posix_time/posix_time.hpp"
+#include "configs.hpp"
 
 int main()
 {
-	using namespace boost::gregorian;
-	using namespace boost::posix_time;
-
+	
 	std::cout << "Hello world!" << std::endl;
 	while (true)
 	{
@@ -16,6 +13,5 @@ int main()
 		
 	}
 	
-
 	return 0;
 }

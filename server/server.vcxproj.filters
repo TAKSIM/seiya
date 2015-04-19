@@ -3,4 +3,11 @@
   <ItemGroup>
     <ClCompile Include="main.cpp" />
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="configs.hpp" />
+    <ClInclude Include="deal.hpp" />
+    <ClInclude Include="error.hpp" />
+    <ClInclude Include="currency.hpp" />
+    <ClInclude Include="underlying.hpp" />
+  </ItemGroup>
 </Project>
